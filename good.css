@@ -176,11 +176,14 @@ textarea {
   border-radius: 10px;
 }
 
-
-
-
-@media screen and (min-width: 640px) and (max-width: 360px) {
+@media screen and (max-width: 480px) {
   #foldericon {
     color: yellow;
+    background-color: blue;
+    font-size: 80px;
+  }
+  #folderico {
+    color: yellow;
+    font-size: 50px;
   }
 }
