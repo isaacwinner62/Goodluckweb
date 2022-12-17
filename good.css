@@ -213,4 +213,7 @@ textarea {
   textarea {
     width: 100%;
   }
+  .contain {
+    margin-top: 50px;
+  }
 }
