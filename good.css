@@ -181,6 +181,7 @@ textarea {
   .dd {
     position: relative;
     display: block;
+    column-count: 2;
   }
   .dd a {
     display: block;
@@ -203,7 +204,7 @@ textarea {
   }
   .dd:hover > .dd-content {
     height: 150px;
-    padding-right: 200px;
+    /* padding-right: 200px; */
   }
   .dd-content > a {
     display: block;
