@@ -181,6 +181,7 @@ textarea {
   .dd {
     position: relative;
     display: inline-block;
+    padding-right: 200px;
   }
   .dd-btn {
     padding: 15px;
