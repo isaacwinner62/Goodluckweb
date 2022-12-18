@@ -45,7 +45,7 @@ button {
   background-color: red;
 }
 .contain {
-  background-image: url(/backgroundimage.png);
+  background-image: url(backgroundimage.png);
   background-color: rgb(53, 53, 53);
   background-repeat: no-repeat;
   background-size: cover;
@@ -67,16 +67,16 @@ button {
 }
 @keyframes change {
   40% {
-    background-image: url(/goodluck1.png);
+    background-image: url(goodluck1.png);
   }
   60% {
-    background-image: url(/design-slide.jpg);
+    background-image: url(design-slide.jpg);
   }
   80% {
-    background-image: url(/bage.png);
+    background-image: url(bage.png);
   }
   100% {
-    background-image: url(/goodluck-2.png);
+    background-image: url(goodluck-2.png);
   }
 }
 #foldericon {
@@ -198,6 +198,7 @@ textarea {
     position: fixed;
     display: block;
     column-count: 2;
+    bottom: 570px;
   }
   .dd a {
     display: block;
