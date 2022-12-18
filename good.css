@@ -202,6 +202,7 @@ textarea {
   }
   .dd a {
     display: block;
+    position:absolute ;
   }
   .dd-btn {
     padding: 15px;
@@ -238,5 +239,7 @@ textarea {
   .contain {
     margin-top: 100px;
     background-image: url(forphone.png);
+    display: inline;
+    position: relative;
   }
 }
