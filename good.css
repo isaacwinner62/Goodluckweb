@@ -181,7 +181,6 @@ textarea {
   .dd {
     position: relative;
     display: inline-block;
-    padding-right: 200px;
   }
   .dd-btn {
     padding: 15px;
@@ -201,6 +200,7 @@ textarea {
   }
   .dd:hover > .dd-content {
     height: 150px;
+    padding-right: 200px;
   }
   .dd-content > a {
     display: block;
