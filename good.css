@@ -204,7 +204,7 @@ textarea {
   }
   .dd:hover > .dd-content {
     height: 150px;
-    /* padding-right: 200px; */
+    padding-right: 250px; 
   }
   .dd-content > a {
     display: block;
