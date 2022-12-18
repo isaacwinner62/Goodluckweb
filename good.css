@@ -180,7 +180,10 @@ textarea {
 @media screen and (max-width: 480px) {
   .dd {
     position: relative;
-    display: inline-block;
+    display: block;
+  }
+  .dd a {
+    display: block;
   }
   .dd-btn {
     padding: 15px;
