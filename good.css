@@ -237,5 +237,6 @@ textarea {
   }
   .contain {
     margin-top: 100px;
+    background-image: url(forphone.png);
   }
 }
