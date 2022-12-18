@@ -195,7 +195,7 @@ textarea {
 
 @media screen and (max-width: 480px) {
   .dd {
-    position: relative;
+    position: fixed;
     display: block;
     column-count: 2;
   }
