@@ -250,3 +250,9 @@ textarea {
     position: relative;
   }
 }
+.classhide {
+  display: none;
+}
+.addmithide {
+  display: none;
+}
