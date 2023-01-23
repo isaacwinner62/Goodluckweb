@@ -2,6 +2,7 @@ body {
   background-color: rgb(24, 22, 22);
   color: white;
   width: 100%;
+  margin-left: 0px;
 }
 button {
   background-color: rgb(27, 27, 39);
@@ -20,9 +21,8 @@ button {
 }
 .header-1:hover {
   background-color: rgb(12, 12, 17);
- background-color: red;
+  background-color: red;
   color: red;
-  
 }
 .header-2:hover {
   background-color: rgb(12, 12, 17);
@@ -46,7 +46,7 @@ button {
   background-color: red;
 }
 .contain {
-  background-image: url(/backgroundimage.png);
+  background-image: url(backgroundimage.png);
   background-color: rgb(53, 53, 53);
   background-repeat: no-repeat;
   background-size: cover;
@@ -56,6 +56,7 @@ button {
   width: 100%;
   height: 400px;
   margin-top: 20px;
+  margin-left: 0px;
   /* margin-left: 20px; */
   opacity: 0.7;
   /* animation: change  5s 3s infinite; */
@@ -68,16 +69,20 @@ button {
 }
 @keyframes change {
   40% {
-    background-image: url(/goodluck1.png);
+    background-image: url(goodluck1.png);
+    width: 100%;
   }
   60% {
-    background-image: url(/design-slide.jpg);
+    background-image: url(design-slide.jpg);
+    width: 100%;
   }
   80% {
-    background-image: url(/bage.png);
+    background-image: url(bage.png);
+    width: 100%;
   }
   100% {
-    background-image: url(/goodluck-2.png);
+    background-image: url(goodluck-2.png);
+    width: 100%;
   }
 }
 #foldericon {
@@ -176,30 +181,55 @@ textarea {
   border: 2px solid red;
   border-radius: 10px;
 }
+.submit {
+  border: 2px solid black;
+  background-color: red;
+  color: black;
+  font-size: 30px;
+  text-align: center;
+  border-radius: 6px;
+}
+.font-siz {
+  font-size: 15px;
+}
+.font-size {
+  font-size: 10px;
+}
+.font-sizes {
+  font-size: 20px;
+}
 
 @media screen and (max-width: 480px) {
+  body
   .dd {
-    position: relative;
-    display: inline-block;
+    position: fixed;
+    display: block;
+    column-count: 2;
+    bottom: 520px;
+  }
+  .dd a {
+    display: block;
+    position: absolute;
   }
   .dd-btn {
     padding: 15px;
     text-align: center;
-     background-color: red;
-     border: none;
-     width: 300px;
-     color: black;
+    background-color: red;
+    border: none;
+    width: 300px;
+    color: black;
   }
   .dd-content {
     position: absolute;
     width: 100%;
-    box-shadow: 0 18px 36px rgba(0,0,0,0.30), 0 14px 11px rgba(0, 0, 0,0.22);
+    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.3), 0 14px 11px rgba(0, 0, 0, 0.22);
     height: 0px;
     transition: height 1s;
     overflow: hidden;
   }
   .dd:hover > .dd-content {
     height: 150px;
+    padding-right: 250px;
   }
   .dd-content > a {
     display: block;
@@ -212,5 +242,11 @@ textarea {
   }
   textarea {
     width: 100%;
+  }
+  .contain {
+    margin-top: 100px;
+    background-image: url(forphone.png);
+    /* display: inline; */
+    position: relative;
   }
 }
