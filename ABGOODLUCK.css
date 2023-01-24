@@ -198,10 +198,18 @@ textarea {
 .font-sizes {
   font-size: 20px;
 }
+.classhide {
+  display: none;
+}
+.addmithide {
+  display: none;
+}
+.myname {
+display: non;
+}
 
 @media screen and (max-width: 480px) {
-  body
-  .dd {
+  body .dd {
     position: fixed;
     display: block;
     column-count: 2;
@@ -250,9 +258,7 @@ textarea {
     position: relative;
   }
 }
-.classhide {
-  display: none;
-}
-.addmithide {
-  display: none;
-}
+
+.myname {
+  display: inline;
+  }
