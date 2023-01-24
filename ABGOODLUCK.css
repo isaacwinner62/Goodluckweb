@@ -205,8 +205,10 @@ textarea {
   display: none;
 }
 .myname {
-display: non;
-}
+  display: none;
+  visibility: hidden;
+  color: brown;
+ }
 
 @media screen and (max-width: 480px) {
   body .dd {
@@ -261,4 +263,6 @@ display: non;
 
 .myname {
   display: inline;
-  }
+  /* visibility: collapse; */
+  color:yellow;  
+}
