@@ -184,15 +184,19 @@ textarea {
 .GO-BACK{
   position: fixed;
   color: white;
+  font-size: 40px;
 }
 
 @media screen and (max-width: 480px) {
+  .imghide {
+    visibility: hidden;
+  }
   .menuul {
     list-style-type: none;
     float: left;
     padding: 1px;
     position: relative;
-    left: 2px;
+    left: 5px;
     bottom: 55px;
     text-align: center;
     /* position: fixed; */
