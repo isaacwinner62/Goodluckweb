@@ -1,50 +1,22 @@
 body {
   background-color: rgb(24, 22, 22);
-  color: white;
   width: 100%;
   margin-left: 0px;
 }
 button {
-  background-color: rgb(27, 27, 39);
-  color: white;
+  background-color: rgb(21, 255, 0);
 }
-.header-container {
-  display: grid;
-  grid-template-columns: repeat(6, 100px);
-  background-color: rgb(27, 27, 39);
-  grid-gap: 4px;
-  /* justify-content: center;  */
-  /* align-items: center;  */
-  color: red;
-  width: 100%;
-  height: 90px;
+
+.menuul {
+  float: left;
+  list-style-type: none;
+  float: left;
+  padding: 20px;
+  position: relative;
+  left: 200px;
+  bottom: 60px;
 }
-.header-1:hover {
-  background-color: rgb(12, 12, 17);
-  background-color: red;
-  color: red;
-}
-.header-2:hover {
-  background-color: rgb(12, 12, 17);
-  background-color: red;
-}
-.header-3:hover {
-  background-color: rgb(12, 12, 17);
-  background-color: red;
-}
-.header-4:hover {
-  background-color: rgb(12, 12, 17);
-  background-color: red;
-}
-.header-5:hover {
-  background-color: rgb(12, 12, 17);
-  background-color: red;
-  color: red;
-}
-.header-6:hover {
-  background-color: rgb(12, 12, 17);
-  background-color: red;
-}
+
 .contain {
   background-image: url(backgroundimage.png);
   background-color: rgb(53, 53, 53);
@@ -84,7 +56,7 @@ button {
     background-image: url(goodluck-2.png);
     width: 100%;
   }
-}
+} 
 #foldericon {
   color: red;
   font-size: 50px;
@@ -142,10 +114,7 @@ button {
   text-decoration: underline;
   font-size: 20px;
 }
-.linkgallery {
-  color: white;
-  text-decoration: none;
-}
+
 form {
   text-align: center;
 }
@@ -200,49 +169,73 @@ textarea {
 }
 .classhide {
   display: none;
+  color: aliceblue;
+}
+.addmithide{
+  color: antiquewhite;
 }
 .addmithide {
   display: none;
 }
-.myname {
-  display: none;
-  visibility: hidden;
-  color: brown;
- }
+.new{
+  color: antiquewhite;
+}
 
 @media screen and (max-width: 480px) {
-  body .dd {
+  .menuul {
+    list-style-type: none;
+    float: left;
+    padding: 1px;
+    position: relative;
+    left: 2px;
+    bottom: 45px;
+    text-align: center;
+  }
+  #home{
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  #galllery{
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  #admiss{
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  #aboutus{
+    padding-top: 9px;
+    padding-bottom: 9px;
+  }
+  button {
+    background-color: rgb(0, 0, 255);
+  }
+  
+  /* body .dd {
     position: fixed;
     display: block;
     column-count: 2;
     bottom: 520px;
-  }
-  .dd a {
+  } */
+  /* .dd a {
     display: block;
     position: absolute;
   }
-  .dd-btn {
-    padding: 15px;
-    text-align: center;
-    background-color: red;
-    border: none;
-    width: 300px;
-    color: black;
-  }
-  .dd-content {
+   */
+  /* .dd-content {
     position: absolute;
-    width: 100%;
-    box-shadow: 0 18px 36px rgba(0, 0, 0, 0.3), 0 14px 11px rgba(0, 0, 0, 0.22);
+    width: 200px;
+    /* box-shadow: 0 18px 36px rgba(0, 0, 0, 0.3), 0 14px 11px rgba(0, 0, 0, 0.22); 
     height: 0px;
     transition: height 1s;
-    overflow: hidden;
-  }
+    overflow: hidden;   
+  } */
   .dd:hover > .dd-content {
-    height: 150px;
+    height: 70px;
     padding-right: 250px;
   }
   .dd-content > a {
-    display: block;
+    display: block; 
     padding: 150px;
     text-decoration: none;
     color: black;
@@ -254,15 +247,31 @@ textarea {
     width: 100%;
   }
   .contain {
-    margin-top: 100px;
+    margin-top: 100px; 
     background-image: url(forphone.png);
     /* display: inline; */
     position: relative;
   }
+  .imghide {
+    display: none;
+  }
+  /* .contain {
+    background-image: url(backgroundimage.png);
+    background-color: rgb(53, 53, 53);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    justify-content: center;
+    align-items: center;
+    width: 100%;
+    height: 400px;
+    margin-top: 20px;
+    margin-left: 0px;
+    margin-left: 20px; 
+    opacity: 0.7;
+  } */
+
+
 }
 
-.myname {
-  display: inline;
-  /* visibility: collapse; */
-  color:yellow;  
-}
+
